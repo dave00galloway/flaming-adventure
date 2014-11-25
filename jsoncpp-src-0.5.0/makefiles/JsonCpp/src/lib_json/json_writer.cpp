@@ -1,12 +1,5 @@
 //#include <json/writer.h>
 #include "..\..\include\json\writer.h"
-#include <utility>
-#include <assert.h>
-#include <stdio.h>
-#include <string.h>
-#include <iostream>
-#include <sstream>
-#include <iomanip>
 
 #if _MSC_VER >= 1400 // VC++ 8.0
 #pragma warning( disable : 4996 )   // disable warning about strdup being deprecated.

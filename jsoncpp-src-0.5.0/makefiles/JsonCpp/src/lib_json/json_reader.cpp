@@ -2,12 +2,6 @@
 //#include <json/value.h>
 #include "../../include/json/value.h"
 #include "../../include/json/reader.h"
-#include <utility>
-#include <cstdio>
-#include <cassert>
-#include <cstring>
-#include <iostream>
-#include <stdexcept>
 
 #if _MSC_VER >= 1400 // VC++ 8.0
 #pragma warning( disable : 4996 )   // disable warning about strdup being deprecated.

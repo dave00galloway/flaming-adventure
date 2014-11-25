@@ -1,5 +1,4 @@
-#ifndef CPPTL_JSON_READER_H_INCLUDED
-# define CPPTL_JSON_READER_H_INCLUDED
+#pragma once
 
 # include "features.h"
 # include "value.h"
@@ -7,6 +6,12 @@
 # include <stack>
 # include <string>
 # include <iostream>
+
+#include <utility>
+#include <cstdio>
+#include <cassert>
+#include <cstring>
+#include <stdexcept>
 
 namespace Json {
 
@@ -192,5 +197,3 @@ namespace Json {
    std::istream& operator>>( std::istream&, Value& );
 
 } // namespace Json
-
-#endif // CPPTL_JSON_READER_H_INCLUDED
